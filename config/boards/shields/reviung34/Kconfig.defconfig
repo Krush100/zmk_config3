@@ -1,6 +1,0 @@
-if SHIELD_reviung34split
-
-config ZMK_KEYBOARD_NAME
-    default "reviung34split"
-
-endif
