@@ -12,7 +12,7 @@ jobs:
       matrix:
         include:
           - board: nice_nano_v2
-            shield: reviung34split
+            shield: reviung34
     steps:
       - name: Checkout
         uses: actions/checkout@v2
