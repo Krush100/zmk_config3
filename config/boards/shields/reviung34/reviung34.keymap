@@ -17,7 +17,7 @@
    &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    
    &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp APOS 
    &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH 
-                        &mo 1  &kp BSPC &kp SPACE &th_bal mo 2 RET
+                        &mo 1  &kp BSPC &kp SPACE &kp ret 
                         >;
                 };
 
@@ -34,6 +34,20 @@
 &kp LCTRL &kp LALT  &kp TAB &kp ESC &kp CAPS    &trans &trans &trans &trans &trans
               &trans &trans &trans                  &trans  
                    >;
+               };
+               
+        lower_layer {
+// -------------------------------------------------------------------------------------
+// |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |
+// |  A  |  S  |  D  |  F  |  G  |   | LEFT| DOWN| UP  |RIGHT|  :  | 
+// |  Z  |  X  |  C  |  V  |  B  |   |  MO3| PRNT| DEL | PGUP| PGUP|
+//             |     |     |     |   |           |
+            bindings = <
+&kp EXCL &kp AT &kp POUND &kp DLLR  &kp PRCNT   &kp CARET &kp AMPS &kp STAR &kp LPAR &kp RPAR   
+&kp UNDER &kp PLUS &kp LBRC &kp RBRC &kp PIPE2  &KP LEFT &kp DOWN &kp UP &kp RIGHT &kp COLON
+&kp LSHFT &kp ESC  &kp K_CMENU &kp LALT &trans      &MO 3 &kp PSCRN &kp DEL &kp PG_DN &kp PG_UP
+              &trans &trans &trans                    &trans  
+                  >;
                };
          };
  };
