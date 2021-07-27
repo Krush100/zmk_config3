@@ -1,2 +1,0 @@
-config SHIELD_REVIUNG34SPLIT
-    def_bool $(shields_list_contains,reviung34split)
