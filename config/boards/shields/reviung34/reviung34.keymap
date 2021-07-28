@@ -8,6 +8,10 @@
 #define lower 2
 #define adjust 2
 
+&mt {
+    retro-tap;
+};
+
 / {
         keymap {
                 compatible = "zmk,keymap";
