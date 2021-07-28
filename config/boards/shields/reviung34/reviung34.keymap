@@ -49,5 +49,7 @@
    &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH    &trans &kp GRAVE &kp TILDE &trans &kp SEMI 
    &kp LCTRL &kp LALT &kp TAB &kp ESC &kp CAPS       &trans  &trans  &trans  &trans  &trans  
                         &trans  &trans &trans    &trans
+                        >;
+                 };
          };
  };
