@@ -42,12 +42,25 @@
 // ------------------------------------------------------------------
 // |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |
 // |  -  |  =  |  [  |  ]  |  \  |   |     |  `  |  ~  |     |  ;  |
-// | crl | alt | tab | esc | cap |   |     |     |     |     |     | 
+// | CRL | ALT | TAB | ESC | CAP |   |     |     |     |     |     | 
 //             |     |     |     |   |           |
                  bindings = <
-   &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT      &kp CARET &kp AMPS  &kp STAR &kp LPAR &kp RPAR   
-   &kp UNDER &kp PLUS &kp LBRC &kp RBRC &kp PIPE    &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp COLON 
+   &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT    &kp CARET &kp AMPS  &kp STAR &kp LPAR &kp RPAR   
+   &kp UNDER &kp PLUS &kp LBRC &kp RBRC &kp PIPE  &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp COLON 
    &kp LCTRL &kp LALT &kp LGUI &kp ESC &trans     &mo 3  &kp PSCRN  &kp DEL  &kp PG_DN  &kp PAGE_UP 
+                        &trans  &trans &trans    &trans
+                        >;
+                 };
+                 adjust_layer {
+// ------------------------------------------------------------------
+// |  F1  |  F2  |  F3  |  F4  |  F5  |   |    |    |    |    |    |
+// |  F6  |  F7  |  F8  |  F9  |  F10 |   |    |    |    |    |    |
+// | F11  | F12  |  ALT | CTRL |  GUI |   |    |    |    |    |    | 
+//                  |     |     |     |   |         |
+                 bindings = <
+   &kp F1 &kp F2 &kp F3 &kp F4 &kp F5            &trans &trans &trans &trans &trans 
+   &kp F6 &kp F7 &kp F8 &kp F9 &kp F10           &trans &trans &trans &trans &trans 
+   &kp F11 &kp F12 &kp LALT &kp LCTRL & LGUI     &trans &trans &trans &trans &trans 
                         &trans  &trans &trans    &trans
                         >;
                  };
